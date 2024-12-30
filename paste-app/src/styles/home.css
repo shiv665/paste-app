@@ -1,0 +1,51 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #e0ecec;
+    box-shadow: 0 2px 4px rgba(24, 10, 10, 0.979);
+    height: auto;
+    
+}
+.header-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 1rem 2rem;
+}
+.input,.button{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: blue;
+    color: white;
+    height: 3rem;
+    font-size: 1rem;
+}
+.input{
+    background-color: antiquewhite;
+    width: 70%;
+    height: 2rem;
+    color: black;
+}
+.textarea-div{
+    width: 80%;
+    padding: 1rem 2rem;
+    overflow: hidden;
+
+}
+.textarea{
+    width: 95%;
+    height: 20rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 1rem;
+    resize: none;
+}
